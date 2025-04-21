@@ -24,6 +24,22 @@ export const architectureAttractions: AttractionProps[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Peter_and_Paul_Cathedral_in_Kazan.jpg/1280px-Peter_and_Paul_Cathedral_in_Kazan.jpg",
     year: "1723-1726 гг.",
     address: "ул. Мусы Джалиля, 21, Казань"
+  },
+  {
+    id: "arch4",
+    name: "Дворец земледельцев",
+    description: "Монументальное здание в стиле неоклассицизма с элементами французского барокко. Архитектурной доминантой является 20-метровое бронзовое дерево в центре фасада.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Kazan_Palace_of_Farmers_08-2016_img2.jpg/1280px-Kazan_Palace_of_Farmers_08-2016_img2.jpg",
+    year: "2010 г.",
+    address: "Федосеевская ул., 36, Казань"
+  },
+  {
+    id: "arch5",
+    name: "Башня Сююмбике",
+    description: "Дозорная и проездная башня в Казанском кремле, одна из главных достопримечательностей города. Является падающей башней — её отклонение от вертикали составляет 1,98 м.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Kazan_Russia_Soyembika-Tower.jpg/800px-Kazan_Russia_Soyembika-Tower.jpg",
+    year: "XVIII-XIX вв.",
+    address: "Кремль, Казань"
   }
 ];
 
@@ -51,6 +67,22 @@ export const artAttractions: AttractionProps[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/6e/The_bowl_of_the_Kazan.jpg",
     year: "2013 г.",
     address: "ул. Сибгата Хакима, Казань"
+  },
+  {
+    id: "art4",
+    name: "Скульптура \"Конь-доброжелатель\"",
+    description: "Памятник жеребцу по имени Альтон-Бей — лошади, которая выступала в цирке братьев Никитиных. По преданию, если под узду коня просунуть руку и загадать желание, оно обязательно сбудется.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Kazan_2021_-_well-wisher_horse.jpg",
+    year: "2012 г.",
+    address: "ул. Баумана, Казань"
+  },
+  {
+    id: "art5",
+    name: "Памятник Федору Шаляпину",
+    description: "Памятник великому оперному певцу Федору Шаляпину, уроженцу Казани. Бронзовая фигура в полный рост установлена на пешеходной части улицы Баумана.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/fc/Chaliapin_monument_in_Kazan.jpg",
+    year: "1999 г.",
+    address: "ул. Баумана, Казань"
   }
 ];
 
@@ -73,10 +105,26 @@ export const landmarkAttractions: AttractionProps[] = [
   },
   {
     id: "land3",
-    name: "Дворец земледельцев",
-    description: "Здание Министерства сельского хозяйства и продовольствия Республики Татарстан. Одно из самых фотографируемых строений в городе благодаря своей необычной архитектуре с элементами барокко.",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Kazan_Palace_of_Farmers_08-2016_img2.jpg/1280px-Kazan_Palace_of_Farmers_08-2016_img2.jpg",
-    year: "2010 г.",
-    address: "Федосеевская ул., 36, Казань"
+    name: "Остров-град Свияжск",
+    description: "Историко-архитектурный и художественный музей-заповедник, расположенный на острове в устье реки Свияги. Основан Иваном Грозным в 1551 году как крепость.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Sviyazhsk_08-2016_img17_aerial_view.jpg/1280px-Sviyazhsk_08-2016_img17_aerial_view.jpg",
+    year: "1551 г.",
+    address: "Свияжск, Республика Татарстан"
+  },
+  {
+    id: "land4",
+    name: "Центр семьи \"Казан\"",
+    description: "Дворец бракосочетаний в Казани в форме огромного казана (котла). Здесь можно подняться на смотровую площадку и насладиться панорамой города.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/98/Kazan_Family_Center.jpg",
+    year: "2013 г.",
+    address: "ул. Сибгата Хакима, 4, Казань"
+  },
+  {
+    id: "land5",
+    name: "Старо-Татарская слобода",
+    description: "Исторический район Казани, место компактного проживания татар с XVI века. Здесь расположены старейшие мечети города и сохранились образцы татарской городской архитектуры.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/8/89/Kazan_tatar_sloboda.jpg",
+    year: "XVI в.",
+    address: "ул. Каюма Насыри, Казань"
   }
 ];
