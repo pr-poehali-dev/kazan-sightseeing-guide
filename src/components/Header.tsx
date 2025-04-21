@@ -20,13 +20,13 @@ const Header = () => {
   return (
     <header className="relative">
       {/* Hero background */}
-      <div className="relative h-[50vh] overflow-hidden">
+      <div className="relative h-[50vh] md:h-[70vh] overflow-hidden">
         <img 
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Kazan_aerial_view_08-2016.jpg/1920px-Kazan_aerial_view_08-2016.jpg" 
-          alt="Панорама Казани" 
+          src="https://cdn.poehali.dev/files/85f7f3be-e3cf-435c-92be-d26507b91c0e.jpg" 
+          alt="Панорама Казанского кремля" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/40"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/30"></div>
         
         {/* Hero content */}
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white p-4">
