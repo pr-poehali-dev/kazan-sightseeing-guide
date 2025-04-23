@@ -93,17 +93,6 @@ const Header = () => {
           <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-8 animate-fade-in opacity-90">
             Откройте для себя уникальное сочетание Востока и Запада, истории и современности в третьей столице России
           </p>
-          <div className="animate-fade-in">
-            <Button 
-              size="lg" 
-              className="bg-primary hover:bg-primary/90 text-white"
-              onClick={() => {
-                document.getElementById("architecture")?.scrollIntoView({ behavior: "smooth" });
-              }}
-            >
-              Исследовать город
-            </Button>
-          </div>
         </div>
       </div>
     </header>
