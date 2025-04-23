@@ -93,7 +93,7 @@ const Header = () => {
           <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-8 animate-fade-in opacity-90">
             Откройте для себя уникальное сочетание Востока и Запада, истории и современности в третьей столице России
           </p>
-          <div className="flex flex-wrap justify-center gap-4 animate-fade-in">
+          <div className="animate-fade-in">
             <Button 
               size="lg" 
               className="bg-primary hover:bg-primary/90 text-white"
@@ -102,16 +102,6 @@ const Header = () => {
               }}
             >
               Исследовать город
-            </Button>
-            <Button 
-              variant="outline" 
-              size="lg" 
-              className="bg-white/10 hover:bg-white/20 text-white border-white/30"
-              onClick={() => {
-                document.getElementById("architects")?.scrollIntoView({ behavior: "smooth" });
-              }}
-            >
-              Знаменитые архитекторы
             </Button>
           </div>
         </div>
