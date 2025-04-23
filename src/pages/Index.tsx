@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import CategorySection from "@/components/CategorySection";
+import ArchitectsSection from "@/components/ArchitectsSection";
 import { architectureAttractions, artAttractions, landmarkAttractions } from "@/data/attractions";
 
 const IndexPage = () => {
@@ -17,6 +18,8 @@ const IndexPage = () => {
             iconName="landmark"
             accentColor="primary"
           />
+          
+          <ArchitectsSection id="architects" />
           
           <CategorySection 
             id="art"
